@@ -1,0 +1,712 @@
+@font-face{
+font-family: Gloria script;
+src: url(../fonts/Gloria.ttf);
+}
+@font-face{
+font-family: PT Sans;
+src: url(../fonts/PT.ttf);
+}
+@font-face{
+font-family: Streetwear;
+src: url(../fonts/Streetwear.ttf);
+}
+@font-face{
+font-family: SlimSansSerif;
+src: url(../fonts/Slim.ttf);
+}
+@font-face{
+font-family: Muller ExtraBold DEMO;
+src: url(../fonts/Muller.ttf);
+}
+
+
+body{
+background-color:#F2F2F2;
+font-family: 'PT Sans', sans-serif;
+margin:0;
+}
+
+#wrapper{
+width:1200px;
+/*height:1000px;*/
+outline:0px solid #656565;
+margin:0 auto;
+box-shadow:0 0 20px #747474;
+}
+
+/*Начало блока хедер
+               Навигация*/
+
+#header{
+width:1200px;
+height:56px;
+outline:0px solid #716ECE;
+position:relative;
+background-color:#FFFFFF;
+}
+
+#logo{
+width:138px;
+height:70px;
+outline:0px solid red;
+background-image:url(../images/sedona/logo.png);
+background-repeat:none;
+position:absolute;
+top:0px;
+left:530px;
+overflow:visible;
+z-index:4;
+}
+
+#logo a{
+display:block;
+height:70px;
+cursor:pointer;
+}
+
+#nav{
+height:56px;
+width:1130px;
+outline:0px solid #79002F;
+position:absolute;
+padding-top:12px;
+margin:0;
+padding-left:60;
+}
+
+#nav li{
+float:left;
+outline:0px solid #79002F;
+list-style:none;
+margin-right:100px;
+padding-left:40px;
+
+}
+#nav2 li{
+float:right;
+outline:0px solid #E20D98;
+list-style:none;
+
+}
+
+#abc{
+margin-left:200px;
+}
+#nav li a{
+text-decoration:none;
+font-family: 'PT Sans', sans-serif;
+font-size:14px;
+color:#000000;
+font-weight:bold;
+}
+
+#nav li a.active{
+color:#766357;
+}
+
+#nav li a:hover, #nav2 li a:hover{
+color:#81B3D2;
+}
+
+/*Конец блока хедер*/
+
+/*Начало блока гора*/
+
+#mountain{
+height:508px;
+outline:0px solid #E20D98;
+background-image:url(../images/sedona/gora.jpg);
+background-repeat:no-repeat;
+position:relative;
+z-index:2;
+
+
+}
+
+
+#ugol{
+width:1200px;
+height:57px;
+outline:0px solid #32DA00;
+position:absolute;
+bottom:0;
+background-image:url(../images/sedona/ugol.png);
+background-repeat:no-repeat;
+z-index:5;
+}
+
+
+#well{
+height:50px;
+width:300px;
+outline:0px solid #DA2211;
+/*position:absolute;
+top:74px;
+left:491px;*/
+margin:0px auto;
+}
+
+#well p{
+font-family: 'SlimSansSerif', sans-serif;
+font-size:70px;
+font-weight:bold;
+color:#81B3D2;
+text-align:center;
+margin:0;
+padding-top:40px;
+
+}
+
+#to{
+height:32px;
+width:269px;
+outline:0px solid #B34EE9;
+/*position:absolute;
+top:132px;
+left:467px;*/
+margin:0px auto;
+}
+
+#to p{
+font:22px 'Streetwear', display;
+color:#916957;
+padding:0;
+margin:0;
+text-align:center;
+padding-top:60px;
+}
+
+#sedona{
+height:98px;
+width:480px;
+outline:0px solid #B34EE9;
+/*position:absolute;
+top:213px;
+left:352px;*/
+margin:0px auto;
+}
+
+#sedona p{
+font-family: 'Muller ExtraBold DEMO', sans-serif;
+font-size:110px;
+color:#ffffff;
+padding:0;
+margin:0;
+font-weight:800;
+text-align:center;
+padding-top:130px;
+}
+
+#because{
+height:68px;
+width:360px;
+outline:0px solid #B34EE9;
+/*position:absolute;
+top:347px;
+left:456px;*/
+margin:0px auto;
+}
+
+
+  
+#because p{
+font-family:'Streetwear', display;
+font-size:28px;
+color:#ffffff;
+padding:0;
+margin:0;
+text-align:center;
+font-weight:500;
+margin-top:180px;
+line-height:1.5;
+
+}	
+
+/*Конец блока гора*/
+/*Начало блока слоган*/
+
+#slogan{
+height:218px;
+outline:0px solid #00FFA9;
+background-color:#ffffff;
+margin:0;
+}
+
+#slogan h2{
+text-align:center;
+font-family: 'PT Sans', sans-serif;
+font-size:22px;
+word-wrap: break-word;
+width:480px;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+padding-top:62px;
+text-transform:uppercase;
+
+}
+#slogan p{
+font-family: 'PT Sans', sans-serif;
+font:6px;
+text-align:center;
+line-height:2px;
+color:#000000;
+width:600px;
+margin-left:auto;
+margin-right:auto;
+text-transform:uppercase;
+margin-top:40px;
+}
+
+/*Начало блока фото1*/
+
+#foto{
+height:256px;
+outline:0px solid #E20D98;
+display:block;
+
+}
+#city{
+float:left;
+
+}
+.blue{
+width:394px;
+height:256px;
+outline:0px solid #7E4C2D;
+background-color:#81B3D2;
+color:#ffffff;
+text-transform:uppercase;
+text-align:center;
+font-family: 'PT Sans', sans-serif;
+
+}
+.blue h2{
+margin-top:0;
+
+}
+.blue p{
+padding-top:15px;
+padding-bottom:7px;
+}
+
+#city h2, #devil h2{
+word-wrap: break-word;
+width:180px;
+margin:0 auto 0 auto;
+font-size:22px;
+font-weight:800;
+padding-top:50px;
+}
+
+#city p, #devil p{
+word-wrap: break-word;
+width:270px;
+margin:0 auto 0 auto;
+font-size:16px;
+
+}
+
+#cityImg{
+width:806px;
+height:256px;
+outline:0px solid #A600FF;
+float:right;
+background-image:url(../images/sedona/city.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+/*Начало блока реклама*/
+
+#reclama{
+height:330px;
+outline:0px solid #FFA11E;
+background-color:#ffffff;
+}
+
+#home{
+height:330px;
+width:400px;
+outline:0px solid #EE2113;
+float:left;
+
+display:block;
+}
+
+#toy{
+height:330px;
+width:400px;
+outline:0px solid #7AE25D;
+float:right;
+}
+
+#food{
+height:330px;
+width:400px;
+outline:0px solid #E66113;
+margin-left:400px;
+padding-top:60px;
+}
+
+#homeImg{
+height:81px;
+width:80px;
+outline:0px solid #EE2113;
+background-image:url(../images/sedona/home.png);
+
+display:block;
+margin: 60px auto 0;
+
+}
+#foodImg{
+height:76px;
+width:80px;
+outline:0px solid #EE2113;
+background-image:url(../images/sedona/food.png);
+margin:0 auto;
+}
+
+#toyImg{
+height:78px;
+width:72px;
+outline:0px solid #EE2113;
+margin:0 auto;
+background-image:url(../images/sedona/toy.png);
+margin-left:auto;
+margin-right:auto;
+margin-top:60px;
+}
+
+#reclama h2{
+text-transform:uppercase;
+font-size:22px;
+text-align:center;
+font-weight:bold;
+
+}
+
+#reclama p{
+text-transform:uppercase;
+font-size:15px;
+text-align:center;
+display:block;
+word-wrap: break-word;
+width:300px;
+margin-left:auto;
+margin-right:auto;
+line-height:25px;
+}
+
+
+
+/*Начало блока фото2 дьявол*/
+
+#devil{
+float:right;
+}
+
+#devilImg{
+width:806px;
+height:256px;
+outline:0px solid #A600FF;
+float:left;
+background-image:url(../images/sedona/devil.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+
+/*Конец блока фото2 дьявол*/
+
+.clear{
+clear:both;
+}
+
+/*начало блока 345*/
+
+#way{
+height:256px;
+outline:0px solid #0071C1;
+background-color:#EEEEEE;
+/*display:block;*/
+}
+
+
+#three{
+height:256px;
+width:400px;
+outline:0px solid #EE2113;
+float:left;
+
+}
+
+#five{
+height:256px;
+width:400px;
+outline:0px solid #EE2113;
+float:right;
+
+}
+
+#four{
+height:256px;
+width:400px;
+outline:0px solid #000000;
+margin:0 auto
+
+}
+.way{
+text-transform:uppercase;
+text-align:center;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+.way h2{
+font-size:22px;
+margin-top:0;
+word-wrap: break-word;
+width:140px;
+text-align:center;
+margin-left:auto;
+margin-right:auto;
+}
+
+.way p{
+font-size:15px;
+text-align:center;
+word-wrap: break-word;
+width:280px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:18px;
+}
+
+#three h2, #five h2{
+margin-top:47px;
+}
+
+#four h2{
+padding-top:47px;
+}
+
+
+
+/*Конец блока 345*/
+
+/*начало блока гостиница*/
+
+#intriga{
+height:300px;
+outline:0px solid #000000;
+position:relative;
+background-color:#ffffff;
+}
+
+#intriga h1{
+font-size:28px;
+text-transform:uppercase;
+text-align:center;
+word-wrap: break-word;
+width:300px;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+padding-top:47px;
+
+}
+
+#intriga p{
+font-size:16px;
+text-transform:uppercase;
+text-align:center;
+word-wrap: break-word;
+width:480px;
+margin-left:auto;
+margin-right:auto;
+margin-top:30px;
+
+}
+
+#hotel{
+height:88px;
+width:570px;
+outline:0px solid #000000;
+background-color:#726054;
+position:absolute;
+bottom:0;
+left:316px;
+}
+
+#hotel a{
+text-decoration:none;
+color:#ffffff;
+
+}
+
+#hotel p{
+text-align:center;
+font-family: 'PT Sans', sans-serif;
+font-size:28px;
+margin:24px auto;
+}
+
+
+
+
+/*Конец блока гостиница*/
+
+/*Начало блока карта*/
+
+#map{
+height:473px;
+outline:0px solid #6DFF50;
+z-index:6;
+position:relative;
+}
+
+#form{
+height:350px;
+width:570px;
+outline:0px solid #6DFF50;
+z-index:9;
+position:absolute;
+top:0;
+left:315px;
+background-color:#ffffff;
+text-transform:uppercase;
+text-align:center;
+}
+
+.text{
+font-weight:bold;
+
+}
+
+.text input{
+margin-top:30px;
+}
+
+fieldset{
+
+border:0px solid #cccccc;
+background-color:#ffffff;
+}
+textarea{
+border:1px solid #333333;
+background-color:#FfffFF;
+width:300px;
+font:14px Arial;
+}
+
+.input{
+border:1px solid #F2F2F2;
+height:35px;
+background-color:#F2F2F2;
+width:346px;
+font:14px Arial;
+line-height:27px;
+padding-left:4px;
+}
+.input:focus{
+border:4px solid #F2F2F2;
+background:none;
+background-color:#FFFFFF;
+}
+
+.text input:hover{
+background-color:#E3E8EE;
+}
+
+.but input:hover{
+background-color:#78AAC9;
+}
+
+.but input{
+background-color:#81B3D2;
+height:57px;
+width:460px;
+border:1px solid #81B3D2;
+margin:0 auto;
+color:#ffffff;
+font-size:25px;
+font-weight:bold;
+cursor:pointer;
+}
+
+/*Начало блока футер*/
+
+#footer{
+height:120px;
+outline:0px solid #E20D98;
+background-color:#ffffff;
+}
+
+#visit{
+height:120px;
+width:400px;
+outline:0px solid #EE2113;
+float:left;
+margin-top:0;
+}
+
+#visit p{
+margin-top:50;
+margin-left:auto;
+margin-right:auto;
+font-size:22px;
+font-family: 'PT Sans', sans-serif;
+text-align:center;
+text-transform:uppercase;
+font-weight:bold;
+}
+
+#twitter{
+height:120px;
+width:400px;
+outline:0px solid #EE2113;
+float:right;
+}
+#byme{
+height:120px;
+width:400px;
+outline:0px solid #EE2113;
+margin:0 auto;
+}
+
+.social i{
+color:#ffffff;
+text-align:center;
+font-size:22px;
+background-color:#80B2D1;
+margin-top:38;
+padding:15px;
+margin-right:5px;
+}
+
+.social{
+margin-left:120px;
+}
+
+.social i:hover{
+background-color:#699BBA;
+cursor:pointer;
+}
+
+#twitter p{
+text-transform:uppercase;
+font-size:18px;
+text-align:center;
+margin-top:50px;
+}
+
+
+
+
+
+
+
+
+
